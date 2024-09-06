@@ -6,7 +6,7 @@ The project aims to do an estimation of the pedestrian intention,with binary cla
 - Amir Rasouli, Iuliia Kotseruba, and John K. Tsotsos, *"Are they going to cross? A benchmark dataset and baseline for pedestrian crosswalk behavior,"* Proceedings of the IEEE International Conference on Computer Vision Workshops, 2017.
 - Amir Rasouli, Iuliia Kotseruba, and John K. Tsotsos, *"Agreeing to cross: How drivers and pedestrians communicate,"* IEEE Intelligent Vehicles Symposium (IV), 2017.
 
-# ARCHITECTURE
+## Model
 
 The model integrates features from three main branches:
 
@@ -20,22 +20,22 @@ The outputs from all three branches are concatenated and passed through a final 
 
 ![image](https://github.com/user-attachments/assets/aeed1dd7-1a41-4c02-8198-b7c6a38825f6)
 
-# TRAINING
+## Training
 
-a) The sequence is of 4 for every feature.​
+- The sequence is of 4 for every feature.​
 
-b) During the training the choice was the Adam optimizer with learning rate = 1e-4,batch size= 1 and a weight_decay=0.01.​
+- During the training the choice was the Adam optimizer with learning rate = 1e-4,batch size= 1 and a weight_decay=0.01.​
 
-c) The label was the cross/not cross of the 8-th future frame,it means a prediction of about 0,26 s.​
+- The label was the cross/not cross of the 8-th future frame,it means a prediction of about 0,26 s.​
 
-d) The model has been trained for a total of 9 epochs.
+- The model has been trained for a total of 9 epochs.
 
-# RESULT
+## Result
 
-**F1 Score**: 0.8581​
+-**F1 Score**: 0.8581​
 
-**Accuracy**: 0.7921​
+-**Accuracy**: 0.7921​
 
-**Precision**: 0.7651​
+-**Precision**: 0.7651​
 
-**Recall**: 0.9769
+-**Recall**: 0.9769
