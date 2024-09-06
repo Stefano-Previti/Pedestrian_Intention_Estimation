@@ -1,5 +1,23 @@
-# Pedestrian_Intention_Estimation
+# PEDESTRIAN INTENTION ESTIMATION
 The project aims to do an estimation of the pedestrian intention,with binary classification model (cross/not cross) for a prevision of 0,26 second.
+
+# DATASET CITATION
+
+@inproceedings{rasouli2017ICCVW,
+title={Are they going to cross? A benchmark dataset and baseline for pedestrian crosswalk behavior},
+author={Rasouli, Amir and Kotseruba, Iuliia and Tsotsos, John K},
+booktitle={Proceedings of the IEEE International Conference on Computer Vision Workshops},
+pages={206--213},
+year={2017}
+}
+
+@inproceedings{Rasouli2017IV,
+title={Agreeing to cross: How drivers and pedestrians communicate},
+author={Rasouli, Amir and Kotseruba, Iuliia and Tsotsos, John K},
+booktitle={IEEE Intelligent Vehicles Symposium (IV)},
+pages={264--269},
+year={2017}
+}
 
 # ARCHITECTURE
 
