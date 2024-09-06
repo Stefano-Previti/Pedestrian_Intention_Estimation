@@ -32,10 +32,10 @@ The outputs from all three branches are concatenated and passed through a final 
 
 ## Result
 
--**F1 Score**: 0.8581​
+- **F1 Score**: 0.8581​
 
--**Accuracy**: 0.7921​
+- **Accuracy**: 0.7921​
 
--**Precision**: 0.7651​
+- **Precision**: 0.7651​
 
--**Recall**: 0.9769
+- **Recall**: 0.9769
